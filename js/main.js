@@ -10,7 +10,7 @@ const arrayTeam = [
     {
         'name': 'Angela Caroll',
         role: 'Chief Editor',
-        'profilePicture': 'wayne-barnett-founder-ceo.jpg'
+        'profilePicture': 'angela-caroll-chief-editor.jpg'
     },
 
     {

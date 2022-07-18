@@ -39,14 +39,6 @@ const arrayTeam = [
 
 ]
 
-// per ogni singolo oggetto, stampo su console i valori di 'name', 'role', 'profilePicture'
-for (let x = 0; x < arrayTeam.length; x++) {
-    console.log(arrayTeam[x]['name']);
-    console.log(arrayTeam[x].role); // equivale a console.log(arrayTeam[x]['role']); sintassi che NON si può usare quando il nome della CHIAVE contiene SPAZI
-    console.log(arrayTeam[x]['profilePicture']);
-    console.log(''); // creo spazio per rendere distinguibile, in console, ogni ripetizione del ciclo
-}
-
 // stampo su html i valori di ogni singola chiave, creando un nuovo <div> e riempiendolo ad ogni giro del ciclo
 for (let y = 0; y < arrayTeam.length; y++) {
     const newDiv = document.createElement('div'); // creo <div>

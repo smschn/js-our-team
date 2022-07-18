@@ -2,19 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html {
     background-color: lightgray;
 }
 
+main h1, main p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
 #container {
+    margin-top: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid purple;
     padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #container div {

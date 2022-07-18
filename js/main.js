@@ -42,7 +42,7 @@ const arrayTeam = [
 // stampo su console i valori di 'name', 'role', 'profilePicture' per ogni oggetto
 for (let x = 0; x < arrayTeam.length; x++) {
     console.log(arrayTeam[x]['name']);
-    console.log(arrayTeam[x]['role']);
+    console.log(arrayTeam[x].role); // equivale a console.log(arrayTeam[x]['role']); sintassi che NON si può usare quando la CHIAVE contiene SPAZI
     console.log(arrayTeam[x]['profilePicture']);
     console.log(''); // creo spazio per rendere risultati più leggibili nella console
 }

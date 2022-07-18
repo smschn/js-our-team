@@ -4,37 +4,37 @@ const arrayTeam = [
     {
         'name': 'Wayne Barnett',
         role: 'Founder & CEO',
-        'profilePicture': "<img src='img/wayne-barnett-founder-ceo.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/wayne-barnett-founder-ceo.jpg'
     },
 
     {
         'name': 'Angela Caroll',
         role: 'Chief Editor',
-        'profilePicture': "<img src='img/angela-caroll-chief-editor.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/angela-caroll-chief-editor.jpg'
     },
 
     {
         'name': 'Walter Gordon',
         role: 'Office Manager',
-        'profilePicture': "<img src='img/walter-gordon-office-manager.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/walter-gordon-office-manager.jpg'
     },
 
     {
         'name': 'Angela Lopez',
         role: 'Social Media Manager',
-        'profilePicture': "<img src='img/angela-lopez-social-media-manager.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/angela-lopez-social-media-manager.jpg'
     },
 
     {
         'name': 'Scott Estrada',
         role: 'Developer',
-        'profilePicture': "<img src='img/scott-estrada-developer.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/scott-estrada-developer.jpg'
     },
 
     {
         'name': 'Barbara Ramos',
         role: 'Graphic Designer',
-        'profilePicture': "<img src='img/barbara-ramos-graphic-designer.jpg' alt=Profile_pic />"
+        'profilePicture': 'img/barbara-ramos-graphic-designer.jpg'
     }
 
 ]
@@ -55,6 +55,5 @@ for (let y = 0; y < arrayTeam.length; y++) {
     newDiv.innerHTML = (y+1) + ' --- '; // inserisco uno alla volta i singoli valori delle chiavi
     newDiv.innerHTML += arrayTeam[y]['name'] + ' --- ';
     newDiv.innerHTML += arrayTeam[y].role + ' --- ';
-    newDiv.innerHTML += arrayTeam[y]['profilePicture'];
+    newDiv.innerHTML += `<img src='${arrayTeam[y]['profilePicture']}' alt=Profile_pic />`; // oppure posso mettere direttamente nella chiave 'profilePic' l'indirizzo ad ogni singola immagine dentro al tag <img>
 }
-

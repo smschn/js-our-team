@@ -4,37 +4,37 @@ const arrayTeam = [
     {
         'name': 'Wayne Barnett',
         role: 'Founder & CEO',
-        'profilePicture': 'wayne-barnett-founder-ceo.jpg'
+        'profilePicture': "<img src='img/wayne-barnett-founder-ceo.jpg' alt=Profile_pic />"
     },
 
     {
         'name': 'Angela Caroll',
         role: 'Chief Editor',
-        'profilePicture': 'angela-caroll-chief-editor.jpg'
+        'profilePicture': "<img src='img/angela-caroll-chief-editor.jpg' alt=Profile_pic />"
     },
 
     {
         'name': 'Walter Gordon',
         role: 'Office Manager',
-        'profilePicture': 'walter-gordon-office-manager.jpg'
+        'profilePicture': "<img src='img/walter-gordon-office-manager.jpg' alt=Profile_pic />"
     },
 
     {
         'name': 'Angela Lopez',
         role: 'Social Media Manager',
-        'profilePicture': 'angela-lopez-social-media-manager.jpg'
+        'profilePicture': "<img src='img/angela-lopez-social-media-manager.jpg' alt=Profile_pic />"
     },
 
     {
         'name': 'Scott Estrada',
         role: 'Developer',
-        'profilePicture': 'scott-estrada-developer.jpg'
+        'profilePicture': "<img src='img/scott-estrada-developer.jpg' alt=Profile_pic />"
     },
 
     {
         'name': 'Barbara Ramos',
         role: 'Graphic Designer',
-        'profilePicture': 'barbara-ramos-graphic-designer.jpg'
+        'profilePicture': "<img src='img/barbara-ramos-graphic-designer.jpg' alt=Profile_pic />"
     }
 
 ]
@@ -57,3 +57,4 @@ for (let y = 0; y < arrayTeam.length; y++) {
     newDiv.innerHTML += arrayTeam[y].role + ' --- ';
     newDiv.innerHTML += arrayTeam[y]['profilePicture'];
 }
+
